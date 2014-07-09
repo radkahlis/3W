@@ -5,7 +5,7 @@
 				<title>JS 02</title>
 
 				<style type="text/css">
-				.cafe{
+				.numberCoffeeServed{
 					text-align: center;
 					background-color: #AFA;
 				}
@@ -32,19 +32,19 @@
 				</style>
 				<script type="text/javascript">
 
-					var nbCafe = 0;
-					var nbMax= 5;
+					var nombreOfOrderedCoffee = 0; // Number of cofee
+					var maxNunberCoffee= 5; 
 	
 
 					function ajouter_un_cafe () 
 					{
 					
-						if (nbCafe < nbMax) //*the first two lines have moved to within the command if*//
+						if (nombreOfOrderedCoffee < maxNunberCoffee) //*the first two lines have moved to within the command if*//
 						{
-							nbCafe=1+nbCafe;
-							alert ('vous avez commandé ' +nbCafe+ ' café');
-							//ajouter un commande nbCafe++;
-							//afficher la message alert ('nb commande'+nbCafe);
+							nombreOfOrderedCoffee=1+nombreOfOrderedCoffee;
+							alert ('vous avez commandé ' +nombreOfOrderedCoffee+ ' café');
+							//ajouter un commande nombreOfOrderedCoffee++;
+							//afficher la message alert ('nb commande'+nombreOfOrderedCoffee);
 						}
 						else 
 						{
@@ -56,29 +56,30 @@
 
 
 					//*déclaration des variables
-					var nbCafe=0;
-					var nbMax=5; 
-					var imagecafe='<img src="cafe.jpg">'
-
+					//var nombreOfOrderedCoffee=0;
+					//var maxNunberCoffee=5; 
+					var imageCafe='<img src="cafe.jpg">'
+ 
 
 					function livrer_mes_commandes()
 					{
-						for (; cafe==nbCafe; cafe=cafe+1)
-							//livrer un cafe
-							document.write('<img src="cafe.jpg">');
 
+						for (  numberCoffeeServed=0 ; numberCoffeeServed < nombreOfOrderedCoffee; numberCoffeeServed=numberCoffeeServed+1)
+						{
+							//livrer un numberCoffeeServed
+							document.write(imageCafe);
+						}
 
 						alert ('payement et livraison');
 					}
-
-					livrer_mes_commandes();
+					//livrer_mes_commandes()
 
 				</script>
 		</head>
 		<body>
 			<h1>MACHINE A CAFÉ</h1>
 				<article>
-					<div class="cafe" onclick="ajouter_un_cafe();">
+					<div class="numberCoffeeServed" onclick="ajouter_un_cafe();">
 							COMMANDER UN CAFÉ
 					</div>
 				</article>
