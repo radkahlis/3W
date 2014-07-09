@@ -1,0 +1,152 @@
+header {
+	background-image: url("../images/header_bg.png");
+	background-repeat: no-repeat;
+	float: left;
+	padding-bottom: 50px;
+}
+
+div {
+display: block;
+}
+
+li {	
+	background-image: url("../images/puce.png");	
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 20px;
+	list-style: none;
+	display: inline-block;
+}
+
+body {
+	font-family: Arial;
+	font: sans-serif;
+	background-position: top;
+	padding-top: 30px;
+	float: left;
+}
+
+.nav1 {
+ 	color: white;
+ 	list-style: none;
+
+}
+
+
+.nav2 {
+	
+	text-align: center;
+	list-style: none;
+	background-color: gray;
+
+}
+
+ul {
+text-align: right;
+}
+
+div {
+	display: center;
+}
+
+a:link {
+	color: gray;
+	text-decoration: none;
+	margin: 0 20px;
+}
+
+.style1 {
+	float: right;
+	background-image: url("../images/body_bg.png");
+	text-align: right;
+	font-size: 50px;
+	color: white;
+	width: 1200px;
+}
+
+
+.article1 {
+	text-align: left;
+	padding-top: 50px;
+	padding-right: 400px;
+	margin-left: 600px;
+	margin-right: 50px;
+	margin: bottom: 100px;
+	display: inline-block ;
+	position: relative;
+}
+
+.article2 {
+	float: left;
+	width: 240px;
+	position: relative;
+}
+
+.article3 {
+	float: left;
+	width: 240px;
+}
+
+
+title {
+	font-size: 30px;
+}
+
+}
+
+
+p {
+	float: right;
+	font-size: 10px;
+	text-align: left;
+}
+
+
+h1 {
+	font-size: 30px;
+	text-align: left;
+	width: 500px;
+}
+
+
+
+h2 {
+	font-size: 30px;
+	text-align: left;
+	position: relative;
+	top: 0px;
+	border-bottom: 1px dotted #000;
+}
+
+h3 {
+	font-size: 30px;
+	border-bottom: 1px dotted #000;
+}
+
+aside {
+	float: left;
+	font-size: 17px;
+	margin-left: 50px;
+	width: 260px;
+	}
+
+section {
+	float: left;
+	font-size: 17px;
+	margin-left: 70px;
+	width: 500px;
+	border-left: 1px dotted #000;
+	padding-left: 40px;
+}
+
+img {
+	float: left;
+}
+
+footer {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 10px;
+	color: gray;
+}

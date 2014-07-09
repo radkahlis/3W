@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)file:///C:/Users/quentin/Downloads/js02-exo04%20(1).html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+			<meta charset="UTF-8">
+				<title>JS 02</title>
+
+				<style type="text/css">
+				.cafe{
+					text-align: center;
+					background-color: #AFA;
+				}
+
+				.livraison{
+					text-align: center;
+					background-color: #AFA;
+				}
+
+				article{
+					width: 20%;
+					border-style: inset;
+					margin: 10px;
+					margin-left: 470px;
+					
+				}
+
+				h1{
+					text-align: center;
+
+				}
+
+			
+				</style>
+				<script type="text/javascript">
+
+					var nbCafe = 0;
+					var nbMax= 5;
+	
+
+					function ajouter_un_cafe () 
+					{
+					
+						if (nbCafe < nbMax) //*the first two lines have moved to within the command if*//
+						{
+							nbCafe=1+nbCafe;
+							alert ('vous avez commandé ' +nbCafe+ ' café');
+							//ajouter un commande nbCafe++;
+							//afficher la message alert ('nb commande'+nbCafe);
+						}
+						else 
+						{
+							alert ('MAXIMUM ATTEINT:5 CAFE(S) EN COMMANDE');
+							//bolcquer la commande alert ('Max atteint');
+						}
+					}
+					//*vérifier si le nombre de commande es PLUS PETIT que hbMax, so it is IF in commands logically*//
+
+
+					//*déclaration des variables
+					var nbCafe=0;
+					var nbMax=5; 
+					var imagecafe='<img src="cafe.jpg">'
+
+
+					function livrer_mes_commandes()
+					{
+						for (; cafe==nbCafe; cafe=cafe+1)
+							//livrer un cafe
+							document.write('<img src="cafe.jpg">');
+
+
+						alert ('payement et livraison');
+					}
+
+					livrer_mes_commandes();
+
+				</script>
+		</head>
+		<body>
+			<h1>MACHINE A CAFÉ</h1>
+				<article>
+					<div class="cafe" onclick="ajouter_un_cafe();">
+							COMMANDER UN CAFÉ
+					</div>
+				</article>
+				<article>
+				<div class="livraison" onclick="livrer_mes_commandes();">
+							LIVRER MES COMMANDES
+				</div>
+				</article>
+			
+
+		
+
+
+
+
+
+
+
+
+
+</body></html>
